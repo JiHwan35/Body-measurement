@@ -52,7 +52,7 @@ Labels: Segmented Body-parts
 ```
 Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치수를 측정 
 ```
-
+## 모델 기반 치수 측정 - Algorithm(2)
 ![image](https://user-images.githubusercontent.com/93183216/212843348-3dd619da-d253-47db-becc-56515eebd9e7.png)
 ```
 사용자가 측정하려는 대상의 Height 실제 값으로 Height의 픽셀 값(픽셀 수)를 구한 뒤 
