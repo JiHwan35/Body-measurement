@@ -46,13 +46,13 @@ Labels: Segmented Body-parts
 ```
 ###### *Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
 
-## 모델 기반 치수 측정 - Algorithm
+## 모델 기반 치수 측정 - 측정 방식
 
 ![image](https://user-images.githubusercontent.com/93183216/212843178-3f15de45-2b4b-4ff3-9c16-0ff6d648a203.png)
 ```
 Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치수를 측정 
 ```
-## 모델 기반 치수 측정 - Algorithm(2)
+## 모델 기반 치수 측정 - 측정 방식(2)
 ![image](https://user-images.githubusercontent.com/93183216/212843348-3dd619da-d253-47db-becc-56515eebd9e7.png)
 ```
 사용자가 측정하려는 대상의 Height 실제 값으로 Height의 픽셀 값(픽셀 수)를 구한 뒤 
@@ -75,6 +75,21 @@ Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치
    상체 - 상체 길이(어깨~허리), 어깨 너비, 가슴 둘레
    하체 - 하체 길이(허리~발),허리 단면
 ```
+
+
+## 딥러닝 기반 치수 측정 - 측정 방식
+
+#### Automatic Estimation of Anthropometric Human Body Measurements*
+![image](https://user-images.githubusercontent.com/93183216/212845806-8d063828-a9a6-45ab-9bc7-27707946e90e.png)
+
+```
+Input:  T pose 2D 200 * 200 pixels gray-scale image
+
+Output: The values of 16 predefined body measurements
+```
+![image](https://user-images.githubusercontent.com/93183216/212846136-3ee64cb4-e905-49be-b2be-3004f7906a1e.png)
+
+###### * ŠKORVÁNKOVÁ, Dana; RIEČICKÝ, Adam; MADARAS, Martin. Automatic Estimation of Anthropometric Human Body Measurements. arXiv preprint arXiv:2112.11992, 2021.
 
 ## 치수 측정 - 어플리케이션 구현
 
