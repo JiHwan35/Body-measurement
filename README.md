@@ -8,7 +8,9 @@ Automatic Estimation of Anthropometric Human Body Measurements
 
 
 
-https://user-images.githubusercontent.com/93183216/212835432-4477002e-639f-480f-99a8-6c8dda0c3d99.mp4
+https://user-images.githubusercontent.com/93183216/212837490-37dde234-9b14-4f10-b1ad-e5b0c2086436.mp4
+
+
 
 
 
