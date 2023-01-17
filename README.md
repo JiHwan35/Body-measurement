@@ -17,25 +17,33 @@
 ## 1. 모델 기반 치수 측정 - Body-pix API 활용
 ![image](https://user-images.githubusercontent.com/93183216/212838245-a5f90809-7172-4207-8b64-5826488d9aff.png)
 ```
- 1. Human segmentation(Full–Body segmentation)
-- 각 픽셀이 사람과 배경 중 어떤 것인지 0과 1사이의 확률 값으로 표현
-- Threshold (0.5) 이상의 값은 사람의 일부로 가정하여 바이너리 값 1로 변환
+   1. Human segmentation(Full–Body segmentation)
+   
+   - 각 픽셀이 사람과 배경 중 어떤 것인지 0과 1사이의 확률 값으로 표현
+   - Threshold (0.5) 이상의 값은 사람의 일부로 가정하여 바이너리 값 1로 변환
+   
+   2. Body part segmentation
+   
+   - 각 픽셀을 24개의 Body part에 대한 0과 1 사이의 확률 값으로 표현
+   - 확률 값이 가장 큰 채널을 픽셀의 Body part ID값으로 채택  
 ```
 ### Dataset
 
 1. Human segmentation
-
+```
 Dataset : COCO 2017 Train/Val Images (66000 images)
 Model : MovileNetV1*
 Labels: Person instances labeled with 2D key points
+```
 ![image](https://user-images.githubusercontent.com/93183216/212838926-59a02102-d97a-4392-9a42-b5c19691b2c2.png)
 
+```
 2. Body part segmentation
 
 Dataset : 이미 분할된 신체 부분을 컴퓨터 그래픽으로 Rendering한 뒤, 합쳐 제작된 가상의 image
 Model : ResNet50
 Labels: Segmented Body-parts
-
+```
 *Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
 
 
