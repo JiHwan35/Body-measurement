@@ -27,7 +27,7 @@
    - 각 픽셀을 24개의 Body part에 대한 0과 1 사이의 확률 값으로 표현
    - 확률 값이 가장 큰 채널을 픽셀의 Body part ID값으로 채택  
 ```
-### 활용 Dataset
+## 모델 기반 치수 측정 - 활용 Dataset
 ```
 1. Human segmentation
 
@@ -46,7 +46,7 @@ Labels: Segmented Body-parts
 ```
 ###### *Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
 
-### Algorithm
+## 모델 기반 치수 측정 - Algorithm
 
 ![image](https://user-images.githubusercontent.com/93183216/212843178-3f15de45-2b4b-4ff3-9c16-0ff6d648a203.png)
 ```
@@ -58,8 +58,8 @@ Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치
 사용자가 측정하려는 대상의 Height 실제 값으로 Height의 픽셀 값(픽셀 수)를 구한 뒤 
 픽셀 당 실제 길이(cm)를 이용하여 다른 part의 치수를 계산
 ```
-1) 강연우, et al. 2D 이미지에서 기계학습 기법을 활용한 특징점 찾기 및 신체 치수 추출. 한국정보기술학회논문지, 2018, 16.4: 29-36.
-2) 무신사 스토어 사이즈 가이드 [웹사이트]. (2022.06.10). URL:https://www.musinsa.com/app/product/real_size
+###### 1) 강연우, et al. 2D 이미지에서 기계학습 기법을 활용한 특징점 찾기 및 신체 치수 추출. 한국정보기술학회논문지, 2018, 16.4: 29-36.
+###### 2) 무신사 스토어 사이즈 가이드 [웹사이트]. (2022.06.10). URL:https://www.musinsa.com/app/product/real_size
 
 
 ## 치수 측정 - 어플리케이션 구현
