@@ -87,9 +87,25 @@ Input:  T pose 2D 200 * 200 pixels gray-scale image
 
 Output: The values of 16 predefined body measurements
 ```
-![image](https://user-images.githubusercontent.com/93183216/212846136-3ee64cb4-e905-49be-b2be-3004f7906a1e.png)
-
 ###### * ŠKORVÁNKOVÁ, Dana; RIEČICKÝ, Adam; MADARAS, Martin. Automatic Estimation of Anthropometric Human Body Measurements. arXiv preprint arXiv:2112.11992, 2021.
+
+![image](https://user-images.githubusercontent.com/93183216/212846478-5d0e38f7-2327-49e3-bc54-775381304ae9.png)
+
+
+## 딥러닝 기반 치수 측정 - Dataset
+![image](https://user-images.githubusercontent.com/93183216/212846583-e14033d3-e473-4e44-bf23-9cc3b20b5415.png)
+
+```
+Image : 50k male and 50k female body models
+Pose : T-pose
+Label : 16 annotated body measurements
+```
+
+## 딥러닝 기반 치수 측정 : 구현 결과
+![image](https://user-images.githubusercontent.com/93183216/212846763-25fcec02-ec0b-4d59-9d5f-f5a2e2710a65.png)
+
+∗MAE (평균 오차율)(%)=(|참값−측정값|)/참값×100
+
 
 ## 치수 측정 - 어플리케이션 구현
 
