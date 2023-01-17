@@ -28,9 +28,9 @@
    - 확률 값이 가장 큰 채널을 픽셀의 Body part ID값으로 채택  
 ```
 ### 활용 Dataset
-
-1. Human segmentation
 ```
+1. Human segmentation
+
 Dataset : COCO 2017 Train/Val Images (66000 images)
 Model : MovileNetV1*
 Labels: Person instances labeled with 2D key points
@@ -44,7 +44,7 @@ Dataset : 이미 분할된 신체 부분을 컴퓨터 그래픽으로 Rendering�
 Model : ResNet50
 Labels: Segmented Body-parts
 ```
-*Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
+######*Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
 
 ### Algorithm
 
