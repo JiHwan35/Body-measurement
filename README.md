@@ -1,6 +1,7 @@
 # 사용자 신체 치수 측정 서비스
    
    Automatic Estimation of Anthropometric Human Body Measurements
+   구현 결과 : https://github.com/JiHwan35/Body-measurement/blob/main/README.md#%EA%B5%AC%ED%98%84-%EA%B2%B0%EA%B3%BC
    
 ## 프로젝트 목표
 
