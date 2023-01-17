@@ -17,9 +17,10 @@
 ![image](https://user-images.githubusercontent.com/93183216/212838245-a5f90809-7172-4207-8b64-5826488d9aff.png)
 
    1. Human segmentation(Full–Body segmentation)
-
-- 각 픽셀이 사람과 배경 중 어떤 것인지 0과 1사이의 확률 값으로 표현
-- Threshold (0.5) 이상의 값은 사람의 일부로 가정하여 바이너리 값 1로 변환
+   - 각 픽셀이 사람과 배경 중 어떤 것인지 0과 1사이의 확률 값으로 표현
+   - Threshold (0.5) 이상의 값은 사람의 일부로 가정하여 바이너리 값 1로 변환
+   
+   
 
 ### Dataset
 
