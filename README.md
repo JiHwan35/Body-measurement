@@ -6,7 +6,11 @@ Automatic Estimation of Anthropometric Human Body Measurements
 
 1. 모델 기반 치수 측정
 
-https://user-images.githubusercontent.com/93183216/212833062-5e0a3074-1cf1-4cce-9b1a-c46789fb2b6d.mp4
+
+
+https://user-images.githubusercontent.com/93183216/212835432-4477002e-639f-480f-99a8-6c8dda0c3d99.mp4
+
+
 
 2. 딥러닝 기반 치수 측정
 
