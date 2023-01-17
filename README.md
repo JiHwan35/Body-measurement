@@ -28,6 +28,25 @@ Automatic Estimation of Anthropometric Human Body Measurements
 - 확률 값이 가장 큰 채널을 픽셀의 Body part ID값으로 채택  
 
 
+## Dataset
+
+1. Human segmentation
+
+Dataset : COCO 2017 Train/Val Images (66000 images)
+Model : MovileNetV1*
+Labels: Person instances labeled with 2D key points
+![image](https://user-images.githubusercontent.com/93183216/212838926-59a02102-d97a-4392-9a42-b5c19691b2c2.png)
+
+2. Body part segmentation
+
+Dataset : 이미 분할된 신체 부분을 컴퓨터 그래픽으로 Rendering한 뒤, 합쳐 제작된 가상의 image
+Model : ResNet50
+Labels: Segmented Body-parts
+
+*Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
+
+
+
 
 
 ## 치수 측정 - 어플리케이션 구현
