@@ -104,10 +104,24 @@ Label : 16 annotated body measurements
 ## 딥러닝 기반 치수 측정 : 구현 결과
 ![image](https://user-images.githubusercontent.com/93183216/212846763-25fcec02-ec0b-4d59-9d5f-f5a2e2710a65.png)
 
-∗MAE (평균 오차율)(%)=(|참값−측정값|)/참값×100
+######∗MAE (평균 오차율)(%)=(|참값−측정값|)/참값×100
 
 
 ## 치수 측정 - 어플리케이션 구현
+
+```
+Keras H5 모델을 TensorFlow Lite file로 변환
+
+변환 과정에서 TensorFlow에서 지원하는 TensorFlow Model Optimization Toolkit을 이용하여 Quantization을 통해 모델 최적화
+
+모델 최적화 효과 :  Smaller storage size, Smaller download size, Less memory usage
+```
+
+## 치수 측정 - 어플리케이션 구현(segmentation)
+![image](https://user-images.githubusercontent.com/93183216/212847583-36265311-bc88-450d-b922-e1f466cf380d.png)
+
+Input: 257x257x3 RGB image
+Output: 257x257x21 (classified 21 labels:  human_index=15)
 
 1. 모델 기반 치수 측정
 
