@@ -1,7 +1,6 @@
 # 사용자 신체 치수 측정 서비스
 
-   Automatic Estimation of Anthropometric Human Body Measurements
-   
+   Automatic Estimation of Anthropometric Human Body Measurements   
 ## 프로젝트 목표
 
    1. 사용자가 직접 촬영한 사진을 기반으로 Body-Pix의 Body segmentation을 통해서 얻은 픽셀 정보를 이용하여 신체 치수 정보를 사용자에게 제공
