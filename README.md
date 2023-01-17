@@ -188,7 +188,9 @@ https://user-images.githubusercontent.com/93183216/212832973-2b76d05c-a0d5-4136-
 
 ## 비교
 ```
-전반적으로 딥러닝 기반 기법 보다 모델 기반 기법이 높은 정확도를 보임 딥러닝 기반에서 데이터 셋과 실제 입력 데이터의 차이가 크며 segmentation 과정에서 정확도가 떨어지기 때문
+전반적으로 딥러닝 기반 기법 보다 모델 기반 기법이 높은 정확도를 보임 딥러닝 기반에서 데이터 셋과 실제 입력 데이터의 차이가 크게 나타남.
+
+->segmentation 과정에서 정확도가 떨어지기 때문
 ```
 ![image](https://user-images.githubusercontent.com/93183216/212849963-a4f91d5f-351d-41ea-bd8a-f7a7dfa5543e.png)
 ```
