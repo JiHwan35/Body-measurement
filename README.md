@@ -104,7 +104,7 @@ Label : 16 annotated body measurements
 ## 딥러닝 기반 치수 측정 : 구현 결과
 ![image](https://user-images.githubusercontent.com/93183216/212846763-25fcec02-ec0b-4d59-9d5f-f5a2e2710a65.png)
 
-######∗MAE (평균 오차율)(%)=(|참값−측정값|)/참값×100
+###### ∗MAE (평균 오차율)(%)=(|참값−측정값|)/참값×100
 
 
 ## 치수 측정 - 어플리케이션 구현
@@ -120,9 +120,19 @@ Keras H5 모델을 TensorFlow Lite file로 변환
 ## 치수 측정 - 어플리케이션 구현(segmentation)
 ![image](https://user-images.githubusercontent.com/93183216/212847583-36265311-bc88-450d-b922-e1f466cf380d.png)
 
+```
 Input: 257x257x3 RGB image
 Output: 257x257x21 (classified 21 labels:  human_index=15)
 
+TensorFlow에서 제공하는 사전 훈련된 TensorFlow Lite Segmentation 모델
+-DeepLabv3
+-DataSet : COCO Train/Val Images (Detection)	
+
+주어진 image를 body measurement 모델의 input 형태로 변환
+-Segmentation으로 background 제거
+-인체 segment에 해당하는 픽셀은 grayscale로 변환
+-Background에 해당하는 픽셀은 (0,0,0)으로 설정
+```
 1. 모델 기반 치수 측정
 
 https://user-images.githubusercontent.com/93183216/212837490-37dde234-9b14-4f10-b1ad-e5b0c2086436.mp4
