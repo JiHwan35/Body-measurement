@@ -67,7 +67,7 @@ Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치
 ## 모델 기반 치수 측정 -  구현 결과
 
 ![image](https://user-images.githubusercontent.com/93183216/212844742-69c7755e-c327-45a0-ac28-4d8b6f1bdac1.png)
-![image](https://user-images.githubusercontent.com/93183216/212845011-5214b5ca-03a6-40bb-9975-e0fa6051696b.png)
+![image](https://user-images.githubusercontent.com/93183216/212845211-3be3209e-90d5-4dcf-a806-6b2ad432ef88.png)
 
 ```
 측정 치수
