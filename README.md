@@ -61,6 +61,20 @@ Body part 각각의 픽셀 배열 정보를 이용하여 사용자의 신체 치
 ###### 1) 강연우, et al. 2D 이미지에서 기계학습 기법을 활용한 특징점 찾기 및 신체 치수 추출. 한국정보기술학회논문지, 2018, 16.4: 29-36.
 ###### 2) 무신사 스토어 사이즈 가이드 [웹사이트]. (2022.06.10). URL:https://www.musinsa.com/app/product/real_size
 
+## 모델 기반 치수 측정 - 앱 작동 Flow Chart
+![image](https://user-images.githubusercontent.com/93183216/212844503-097bd579-6f10-4c92-9b78-aef9320aaa5c.png)
+
+## 모델 기반 치수 측정 -  구현 결과
+
+![image](https://user-images.githubusercontent.com/93183216/212844742-69c7755e-c327-45a0-ac28-4d8b6f1bdac1.png)
+![image](https://user-images.githubusercontent.com/93183216/212845011-5214b5ca-03a6-40bb-9975-e0fa6051696b.png)
+
+```
+측정 치수
+
+   상체 - 상체 길이(어깨~허리), 어깨 너비, 가슴 둘레
+   하체 - 하체 길이(허리~발),허리 단면
+```
 
 ## 치수 측정 - 어플리케이션 구현
 
