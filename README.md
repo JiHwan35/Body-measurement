@@ -26,7 +26,7 @@
 - 확률 값이 가장 큰 채널을 픽셀의 Body part ID값으로 채택  
 
 
-## Dataset
+### Dataset
 
 1. Human segmentation
 
